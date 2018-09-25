@@ -1,8 +1,9 @@
-package Pages;
+package Tests;
 
 import Browser.Browser;
 import Pages.ObjectMap;
 import org.openqa.selenium.WebElement;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import static org.testng.Assert.assertEquals;
@@ -26,7 +27,7 @@ public class testingtria {
             finding.sendKeys(number);
 
             //Step 2
-            assertEquals("", "");
+            Assert.assertEquals("", "");
 
         } catch (Exception e) {
             // TODO Auto-generated catch block

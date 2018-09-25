@@ -1,14 +1,9 @@
 package Pages;
 
-
-
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.LoadableComponent;
 import static org.testng.Assert.assertTrue;
-
-
-
 import Browser.Browser;
 
 
